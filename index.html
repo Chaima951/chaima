@@ -880,6 +880,9 @@
             transition: all var(--tr);
         }
         .footer .social a:hover { border-color: var(--primary); color: var(--primary); transform: translateY(-3px); box-shadow: 0 6px 20px var(--glow); }
+
+        /* Texte "CV" dans le rond (à la place de l'icône PDF) */
+        .cv-label { font-size: 0.8rem; font-weight: 800; letter-spacing: 0.04em; line-height: 1; }
  
         .footer .copyright { font-size: 0.85rem; color: var(--muted); }
  
@@ -1056,7 +1059,7 @@
                     <i class="fa-brands fa-github"></i>
                 </a>
                 <a href="cv-Chaima.pdf" target="_blank" rel="noopener noreferrer" title="Voir mon CV">
-                    <i class="fa-solid fa-file-pdf"></i>
+                    <span class="cv-label">CV</span>
                 </a>
             </div>
  
@@ -1629,7 +1632,7 @@
             <i class="fa-brands fa-github"></i>
         </a>
         <a href="cv-Chaima.pdf" target="_blank" rel="noopener noreferrer" title="Voir mon CV">
-                    <i class="fa-solid fa-file-pdf"></i>
+                    <span class="cv-label">CV</span>
                 </a>
     </div>
     <p class="copyright">© 2025 Chaima Abdelhanine — Tous droits réservés</p>
